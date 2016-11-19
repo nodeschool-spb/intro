@@ -41,20 +41,40 @@ a {
 .groups .double {
     margin-right: -20px;
 }
-#cover {
+.qr {
+    top: -30px;
+    position: relative;
+    display: inline-block;
+}
+.qr__link {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    display: block;
+    font-size: 30px;
+    margin-bottom: 10px;
+    background: none !important;
+}
+.qr__image {
+    width: 200px;
+    padding: 10px;
+    background-color: #fff;
+}
+.cover {
     text-align: center;
     background: #507299;
     color: #f7f7f7;
 }
-#cover .logo {
+.cover .logo {
     width: 200px;
-    display: block;
+    display: inline-block;
     margin: -30px auto 30px;
 }
-#cover h2 {
+.cover h2 {
     font-size: 70px;
 }
-#cover p {
+.cover p {
     font-size: 50px;
 }
 #map {
