@@ -18,6 +18,13 @@
 .slide ol li::before, .slide ul li::before {
     color: currentColor;
 }
+.slide code, .slide kbd, .slide mark, .slide samp {
+    padding: .01em .3em;
+}
+.slide mark {
+    color: inherit;
+    background: rgba(20, 50, 105, .85);
+}
 .progress {
     border-color: #143269;
     border-right-color: transparent;
