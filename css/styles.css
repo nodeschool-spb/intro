@@ -75,6 +75,7 @@ a {
 }
 .cover .logo {
     width: 200px;
+    max-height: 230px;
     display: inline-block;
     margin: -30px auto 30px;
 }
