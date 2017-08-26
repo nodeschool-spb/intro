@@ -53,6 +53,11 @@ a {
     position: relative;
     display: inline-block;
 }
+.qr__text {
+    display: block;
+    padding-bottom: 10px;
+    font-size: .8em;
+}
 .qr__link {
     position: absolute;
     bottom: 100%;
