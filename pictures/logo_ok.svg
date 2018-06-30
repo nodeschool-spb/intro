@@ -1,7 +1,0 @@
-<svg viewBox="0 0 10 16" xmlns="http://www.w3.org/2000/svg" height="102.5">
-    <g fill="none" stroke="#EE8208" stroke-width="2.4" stroke-linecap="round">
-        <circle r="2.9" cx="4.9" cy="4.3"></circle>
-        <polyline points="1.8 14.6, 4.9 11.5, 7.9 14.6"></polyline>
-        <path d="M1.6,9.6 a6.6,6.6 0 0,0 6.6,0"></path>
-    </g>
-</svg>
