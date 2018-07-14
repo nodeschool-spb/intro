@@ -80,7 +80,7 @@ a {
 .cover .logos {
     width: 100%;
     display: flex;
-    align-items: center;
+    align-items: baseline;
     justify-content: center;
 }
 .cover .logo {
