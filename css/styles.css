@@ -60,10 +60,10 @@ a {
 .qr__link {
     position: absolute;
     bottom: 100%;
-    left: 0;
-    right: 0;
+    left: -70px;
+    right: -70px;
     display: block;
-    font-size: 30px;
+    font-size: 24px;
     margin-bottom: 10px;
     background: none !important;
 }
