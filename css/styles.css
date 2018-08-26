@@ -1,6 +1,8 @@
 /* extends base layout */
 .shower {
     transition: transform .2s cubic-bezier(.4, 0, .2, 1);
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-size: 23px;
 }
 .slide {
     color: #000;
@@ -10,7 +12,7 @@
     visibility: hidden;
 }
 .slide h2 {
-    font-family: 'Yeseva One', 'PT Sans', sans-serif;
+    font-family: 'Montserrat', Arial, sans-serif;
     font-weight: 400;
     letter-spacing: 1px;
     color: #000;
