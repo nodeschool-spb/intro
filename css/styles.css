@@ -3,8 +3,7 @@
     transition: transform .2s cubic-bezier(.4, 0, .2, 1);
 }
 .slide {
-    background: #507299;
-    color: #f7f7f7;
+    color: #000;
     padding-top: 51px;
 }
 .slide:after {
@@ -14,7 +13,7 @@
     font-family: 'Yeseva One', 'PT Sans', sans-serif;
     font-weight: 400;
     letter-spacing: 1px;
-    color: #f7f7f7;
+    color: #000;
 }
 .slide ol li::before, .slide ul li::before {
     color: currentColor;
@@ -24,7 +23,7 @@
 }
 .slide mark {
     color: inherit;
-    background: rgba(20, 50, 105, .85);
+    background: rgba(255, 229, 27, .5);
 }
 .progress {
     border-color: #143269;
@@ -75,8 +74,7 @@ a {
 }
 .ns {
     text-align: center;
-    background: #507299;
-    color: #f7f7f7;
+    color: #000;
 }
 .ns .logos {
     width: 100%;
