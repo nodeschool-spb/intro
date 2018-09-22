@@ -120,3 +120,28 @@ a {
 .folder li {
     margin-bottom: 0;
 }
+
+/* horizontal workshops list */
+.cols > .row > ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cols.wide{
+    display: flex;
+    flex-direction: column;
+    min-height: 80%;
+    font-size: 96%;
+}
+
+.slide > .cols.wide > .row > ul > li:first-child:lang(ru){
+    margin-right: 5px;
+}
+
+.slide > .cols.wide > .row > ul > li:not(:first-child):lang(ru){
+    padding: 0 5px;
+}
+
+.slide > .cols.wide > .row > ul > li:not(:first-child):lang(ru)::before{
+    content: ' ';
+}
