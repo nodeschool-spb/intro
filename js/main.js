@@ -1,7 +1,7 @@
 (function () {
   /**
    * jQuery-like syntax for querySelector
-   * 
+   *
    * @param  {!DOMString} query Simple CSS selector
    * @return {NodeList|Node}    List of nodes or once node of DOM
    */
@@ -12,7 +12,7 @@
 
   /**
    * Pluralize russian words
-   * 
+   *
    * @param  {!number} n Amount of a S
    * @param  {string} s1 When the S is a multiple of one
    * @param  {string} s2 When the S is a multiple of two
@@ -23,7 +23,7 @@
 
   /**
    * Pluralize years
-   * 
+   *
    * @param  {!number} n                Number of years
    * @param  {Array<string>} translates Collection with three pluralize translates
    * @return {string}                   Returns pluralize year
@@ -32,7 +32,7 @@
 
   /**
    * Calculate the difference between years
-   * 
+   *
    * @param  {!Date} date End year
    * @return {number}     Difference
    */
@@ -40,6 +40,7 @@
     const yearsDiffMs = Date.now() - date.getTime() // TODO check typeof Date
     const yearsDate = new Date(yearsDiffMs)
     const unixStartYear = 1970
+
     return Math.abs(yearsDate.getFullYear() - unixStartYear)
   }
 
